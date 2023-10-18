@@ -26,7 +26,7 @@ function speak()
 {
     var synth = window.speechSynthesis;
 
-    speakData = document.getElementById("textbox").value;
+    speakData = "Tirando sua selfie em 5 segundos";
 
     var utterThis = new SpeechSynthesisUtterance(speakData);
 
